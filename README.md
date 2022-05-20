@@ -25,7 +25,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 from cv2 import cvtColor
-image=cv2.imread("im1.jpg")
+image=cv2.imread("OIP.jpg")
 cv2.imshow("ORIGINAL",image)
 
 #gray=cv2.cvtColor(image,cv2.COLOR_RGB2GRAY)
@@ -71,16 +71,16 @@ plt.axis('off')
 ## Output
 
 ### Input image and grayscale image
+![Capture12](https://user-images.githubusercontent.com/77089276/169465037-cba8965b-81f9-4c97-a2c8-4ef2ac6272d5.PNG)
 
-<img width="274" alt="8-1" src="https://user-images.githubusercontent.com/77089276/168863615-c4a7168f-412d-4d61-8ec8-9998cb19e2d3.PNG">
 
 ### Canny Edge detector output
-
-<img width="223" alt="8-2" src="https://user-images.githubusercontent.com/77089276/168863634-68dfe9d6-c3f7-4d2c-941e-e509ee16d910.PNG">
+![Capture13](https://user-images.githubusercontent.com/77089276/169465064-0f72d920-2e59-4154-abdc-2898a611296a.PNG)
 
 ### Display the result of Hough transform
+![Capture14](https://user-images.githubusercontent.com/77089276/169465086-d47ac185-1ec7-4933-a7d3-3f42c56888cf.PNG)
 
-<img width="207" alt="8-3" src="https://user-images.githubusercontent.com/77089276/168863663-b26a264f-eb5e-49d2-96f2-8ea40a4e1947.PNG">
+
 
 ## Result:
 Thus the program is written with python and OpenCV to detect lines using Hough transform. 
